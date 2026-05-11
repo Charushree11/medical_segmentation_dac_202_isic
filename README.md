@@ -66,17 +66,9 @@ pip install -r requirements.txt
 **ISIC 2017** — https://challenge.isic-archive.com/data/#2017
 Download: Training Data, Training Ground Truth, Validation Data, Validation Ground Truth, Test Data, Test Ground Truth.
 
-**ISIC 2018** — https://challenge.isic-archive.com/data/#2018
-Download: Task 1 Training Input + Ground Truth (2594 images total, auto-split by script).
-
 ### 3. Prepare the dataset
 
 ```bash
-# ISIC 2018
-python prepare_dataset.py \
-    --dataset_root /path/to/dataset_isic18 \
-    --year 2018 \
-    --out_dir data
 
 # ISIC 2017
 python prepare_dataset.py \
