@@ -152,19 +152,10 @@ Output per model: `*_test_results.txt`, `*_roc_curve.png`, `*_predictions.png`
 - Precision
 - Accuracy
 - Jaccard Index (IoU)
+- Housdroff Distance
 
 ---
 
-## Reference paper benchmarks (ISIC 2017)
-
-| Metric | U-Net (paper) |
-|---|---|
-| F1 / Dice | 0.8682 |
-| Sensitivity | 0.9479 |
-| Specificity | 0.9263 |
-| Accuracy | 0.9314 |
-
----
 
 ## References
 
