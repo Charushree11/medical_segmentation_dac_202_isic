@@ -43,32 +43,6 @@ medical-segmentation-isic/
     ├── deeplab/
     ├── hiformer/
     └── eval/
-```
-
----
-
-## Setup
-
-### 1. Clone and install dependencies
-
-```bash
-git clone https://github.com/YOUR_USERNAME/medical-segmentation-isic.git
-cd medical-segmentation-isic
-
-python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
-
-pip install -r requirements.txt
-```
-
-### 2. Download the dataset
-
-**ISIC 2017** — https://challenge.isic-archive.com/data/#2017
-Download: Training Data, Training Ground Truth, Validation Data, Validation Ground Truth, Test Data, Test Ground Truth.
-
-### 3. Prepare the dataset
-
-```bash
 
 # ISIC 2017
 python prepare_dataset.py \
@@ -178,7 +152,6 @@ Output per model: `*_test_results.txt`, `*_roc_curve.png`, `*_predictions.png`
 - Precision
 - Accuracy
 - Jaccard Index (IoU)
-- AUC-ROC
 
 ---
 
